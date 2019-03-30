@@ -110,6 +110,12 @@ cout<"\n\n";
 		case 22: cout << line <<"\n" << isit << "TITANIO"
 		<< isSymbol << "Ti\n" << p3 << line << "\n\n"; 
 		break;
+		case 23: cout << line <<"\n" << isit << "VANADIO"
+		<< isSymbol << "V\n" << p3 << line << "\n\n";
+		break;
+		case 24: cout << line <<"\n" << isit << "CROMO"
+		<< isSymbol << "Cr\n" << p3 << line << "\n\n";
+		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
 	}
