@@ -126,6 +126,6 @@ cout<"\n\n";
 
 	}
 
-	cout<< line << "\nAtomStruck Version Beta\nDesarrollado por @360macky\n\n\n\n";
+	cout<< line << "\nAtomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
 	return 0;
 }
