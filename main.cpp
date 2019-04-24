@@ -19,6 +19,9 @@ cout<"\n\n";
   / ___ \ || (_) | | | | | |___) | |_| |  | |_| | (__|   < 
  /_/   \_\__\___/|_| |_| |_|____/ \__|_|   \__,_|\___|_|\_\
                                                            
+# Herramientas disponibles
+	- Número atómico
+	- Periódo del elemento químico
 
 
 */
@@ -38,7 +41,10 @@ cout<"\n\n";
 	
 	
 	while (element!=0){
+			// Color predeterminado
 			system("color 1B");
+			// Limpieza de la pantalla
+			system("cls");
 		
 	switch (element){
 		
@@ -135,6 +141,9 @@ cout<"\n\n";
 		break;
 		case 31: cout << line <<"\n" << isit << "GALIO"
 		<< isSymbol << "Ga\n" << p4 << line << "\n\n";
+		break;
+		case 32: cout << line <<"\n" << isit << "GERMANIO"
+		<< isSymbol << "Ge\n" << p4 << line << "\n\n";
 		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
