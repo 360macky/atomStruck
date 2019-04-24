@@ -2,7 +2,6 @@
 
 using namespace std;
 
-//I programmed this to understand GitHub and C ++
 int main(){
 	system("title AtomStruck");
 	cout <<"Hola. Bienvenido a AtomStruck.\n\n";
@@ -99,22 +98,43 @@ cout<"\n\n";
 		<< isSymbol << "Ar\n" << p3 << line << "\n\n"; 
 		break;
 		case 19: cout << line <<"\n" << isit << "POTASIO"
-		<< isSymbol << "K\n" << p3 << line << "\n\n"; 
+		<< isSymbol << "K\n" << p4 << line << "\n\n"; 
 		break;
 		case 20: cout << line <<"\n" << isit << "CALCIO"
-		<< isSymbol << "Ca\n" << p3 << line << "\n\n"; 
+		<< isSymbol << "Ca\n" << p4 << line << "\n\n"; 
 		break;
 		case 21: cout << line <<"\n" << isit << "ESCANDIO"
-		<< isSymbol << "Sc\n" << p3 << line << "\n\n"; 
+		<< isSymbol << "Sc\n" << p4 << line << "\n\n"; 
 		break;
 		case 22: cout << line <<"\n" << isit << "TITANIO"
-		<< isSymbol << "Ti\n" << p3 << line << "\n\n"; 
+		<< isSymbol << "Ti\n" << p4 << line << "\n\n"; 
 		break;
 		case 23: cout << line <<"\n" << isit << "VANADIO"
-		<< isSymbol << "V\n" << p3 << line << "\n\n";
+		<< isSymbol << "V\n" << p4 << line << "\n\n";
 		break;
 		case 24: cout << line <<"\n" << isit << "CROMO"
-		<< isSymbol << "Cr\n" << p3 << line << "\n\n";
+		<< isSymbol << "Cr\n" << p4 << line << "\n\n";
+		break;
+		case 25: cout << line <<"\n" << isit << "MANGANESO"
+		<< isSymbol << "Mg\n" << p4 << line << "\n\n";
+		break;
+		case 26: cout << line <<"\n" << isit << "HIERRO"
+		<< isSymbol << "Fe\n" << p4 << line << "\n\n";
+		break;
+		case 27: cout << line <<"\n" << isit << "COBALTO"
+		<< isSymbol << "Co\n" << p4 << line << "\n\n";
+		break;
+		case 28: cout << line <<"\n" << isit << "NIQUEL"
+		<< isSymbol << "Ni\n" << p4 << line << "\n\n";
+		break;
+		case 29: cout << line <<"\n" << isit << "COBRE"
+		<< isSymbol << "Cu\n" << p4 << line << "\n\n";
+		break;
+		case 30: cout << line <<"\n" << isit << "ZINC"
+		<< isSymbol << "Zn\n" << p4 << line << "\n\n";
+		break;
+		case 31: cout << line <<"\n" << isit << "GALIO"
+		<< isSymbol << "Ga\n" << p4 << line << "\n\n";
 		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
