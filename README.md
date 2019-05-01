@@ -1,3 +1,5 @@
 # atomStruck
-# Objective: It gives you the atomic structure of any element just with the number
-# It is my first project in GitHub to understand so much more C++ and know how to use GitHub
+Guía de información acerca de elementos químicos. Es desarrollado enteramente en C++
+
+## 🛠️ Información de elementos químicos
+[Lista de elementos químicos](https://www.periodni.com/es/elementos_clasificados_por_numero_atomico.html)
