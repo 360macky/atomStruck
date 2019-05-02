@@ -151,6 +151,15 @@ cout<"\n\n";
 		case 35: cout << line <<"\n" << isit << "BROMO"
 		<< isSymbol << "Br\n" << p4 << line << "\n\n";
 		break;
+		case 36: cout << line <<"\n" << isit << "KRIPTON"
+		<< isSymbol << "Kr\n" << p4 << line << "\n\n";
+		break;
+		case 37: cout << line <<"\n" << isit << "RUBIDIO"
+		<< isSymbol << "Kr\n" << p5 << line << "\n\n";
+		break;
+		case 38: cout << line <<"\n" << isit << "ESTRONCIO"
+		<< isSymbol << "Sr\n" << p5 << line << "\n\n";
+		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
 	}
