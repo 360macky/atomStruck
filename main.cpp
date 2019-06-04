@@ -37,6 +37,10 @@ cout<"\n\n";
 	string p6 = ">>> Se encuentra en el sexto periodo";
 	string p7 = ">>> Se encuentra en el septimo periodo";
 
+	/* Serie quimica */
+	string nm = ">>> Pertenece a la serie de los No Metales";
+	string gn = ">>> Pertenece a la serie de los Gases Nobles";
+	string ma = ">>> Pertenece a la serie de los Metales Alcalinos";
 
 	cout <<"Digite el numero del elemento quimico:\t";
 	cin>> element;
@@ -52,10 +56,10 @@ cout<"\n\n";
 
 		//Hey, this only have 21 elements :( I know I know
 		case 1: cout << line <<"\n" << isit << "HIDROGENO"
-		<< isSymbol << "H\n" << p1 << line << "\n\n";
+		<< isSymbol << "H\n" << p1 << line << nm << line << "\n\n";
 		break;
 		case 2: cout << line <<"\n" << isit << "HELIO"
-		<< isSymbol << "He\n" << p1 << line << "\n\n";
+		<< isSymbol << "He\n" << p1 << line << p1 << line << "\n\n";
 		break;
 		case 3: cout << line <<"\n" << isit << "LITIO"
 		<< isSymbol << "Li\n" <<  p2 << line << "\n\n";
