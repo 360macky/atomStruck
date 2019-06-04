@@ -4,6 +4,8 @@ using namespace std;
 
 int main(){
 	system("title AtomStruck");
+
+	
 	cout <<"Hola. Bienvenidos a AtomStruck.\n\n";
 
 	// Well, it's my first file on GitHub.
@@ -25,6 +27,8 @@ cout<"\n\n";
 
 	int element, o = 5, color = 1;
 	string isit = ">>> El elemento es ", isSymbol = " su simbolo es ", line = "\n------------------------------------------------------------";
+	
+	/* Periodos de los elementos*/
 	string p1 = ">>> Se encuentra en el primer periodo";
 	string p2 = ">>> Se encuentra en el segundo periodo";
 	string p3 = ">>> Se encuentra en el tercer periodo";
@@ -32,6 +36,7 @@ cout<"\n\n";
 	string p5 = ">>> Se encuentra en el quinto periodo";
 	string p6 = ">>> Se encuentra en el sexto periodo";
 	string p7 = ">>> Se encuentra en el septimo periodo";
+
 
 	cout <<"Digite el numero del elemento quimico:\t";
 	cin>> element;
@@ -183,6 +188,24 @@ cout<"\n\n";
 		break;
 		case 46: cout << line <<"\n" << isit << "PALADIO"
 		<< isSymbol << "Pd\n" << p5 << line << "\n\n";
+		break;
+		case 47: cout << line <<"\n" << isit << "PLATA"
+		<< isSymbol << "Pt\n" << p5 << line << "\n\n";
+		break;
+		case 48: cout << line <<"\n" << isit << "CADMIO"
+		<< isSymbol << "Cd\n" << p5 << line << "\n\n";
+		break;
+		case 49: cout << line <<"\n" << isit << "INDIO"
+		<< isSymbol << "In\n" << p5 << line << "\n\n";
+		break;
+		case 50: cout << line <<"\n" << isit << "ESTANNO"
+		<< isSymbol << "Sn\n" << p5 << line << "\n\n";
+		break;
+		case 51: cout << line <<"\n" << isit << "ANTIMONIO"
+		<< isSymbol << "Sb\n" << p5 << line << "\n\n";
+		break;
+		case 52: cout << line <<"\n" << isit << "TELURO"
+		<< isSymbol << "Te\n" << p5 << line << "\n\n";
 		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
