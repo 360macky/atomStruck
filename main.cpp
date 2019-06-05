@@ -59,10 +59,10 @@ cout<"\n\n";
 		<< isSymbol << "H\n" << p1 << line << nm << line << "\n\n";
 		break;
 		case 2: cout << line <<"\n" << isit << "HELIO"
-		<< isSymbol << "He\n" << p1 << line << p1 << line << "\n\n";
+		<< isSymbol << "He\n" << p1 << line << gn << line << "\n\n";
 		break;
 		case 3: cout << line <<"\n" << isit << "LITIO"
-		<< isSymbol << "Li\n" <<  p2 << line << "\n\n";
+		<< isSymbol << "Li\n" <<  p2 << line << ma << line << "\n\n";
 		break;
 		case 4: cout << line <<"\n" << isit << "BERILIO"
 		<< isSymbol << "Be\n" << p2 << line << "\n\n";
