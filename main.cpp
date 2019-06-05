@@ -211,6 +211,9 @@ cout<"\n\n";
 		case 52: cout << line <<"\n" << isit << "TELURO"
 		<< isSymbol << "Te\n" << p5 << line << "\n\n";
 		break;
+		case 53: cout << line <<"\n" << isit << "YODO"
+		<< isSymbol << "I\n" << p5 << line << "\n\n";
+		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
 	}
@@ -221,6 +224,6 @@ cout<"\n\n";
 
 	}
 
-	cout<< line << "\nAtomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
+	cout<< line << "\natomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
 	return 0;
 }
