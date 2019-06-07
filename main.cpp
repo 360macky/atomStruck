@@ -54,7 +54,6 @@ cout<"\n\n";
 
 	switch (element){
 
-		//Hey, this only have 21 elements :( I know I know
 		case 1: cout << line <<"\n" << isit << "HIDROGENO"
 		<< isSymbol << "H\n" << p1 << line << nm << line << "\n\n";
 		break;
