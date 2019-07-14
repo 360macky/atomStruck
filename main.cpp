@@ -246,6 +246,27 @@ cout<"\n\n";
 		case 64: cout << line <<"\n" << isit << "GADOLINIO"
 		<< isSymbol << "Gd\n" << p6 << line << "\n\n";
 		break;
+		case 65: cout << line <<"\n" << isit << "TERBIO"
+		<< isSymbol << "Tb\n" << p6 << line << "\n\n";
+		break;
+		case 66: cout << line <<"\n" << isit << "DISPROSIO"
+		<< isSymbol << "Dy\n" << p6 << line << "\n\n";
+		break;
+		case 67: cout << line <<"\n" << isit << "HOLMIO"
+		<< isSymbol << "Ho\n" << p6 << line << "\n\n";
+		break;
+		case 68: cout << line <<"\n" << isit << "ERBIO"
+		<< isSymbol << "Er\n" << p6 << line << "\n\n";
+		break;
+		case 69: cout << line <<"\n" << isit << "TULIO"
+		<< isSymbol << "Tm\n" << p6 << line << "\n\n";
+		break;
+		case 70: cout << line <<"\n" << isit << "ITERBIO"
+		<< isSymbol << "Yb\n" << p6 << line << "\n\n";
+		break;
+		case 71: cout << line <<"\n" << isit << "LUTECIO"
+		<< isSymbol << "Lu\n" << p6 << line << "\n\n";
+		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
 	}
