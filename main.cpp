@@ -312,6 +312,12 @@ cout<"\n\n";
 		case 86: cout << line <<"\n" << isit << "RADON"
 		<< isSymbol << "Rn\n" << p6 << line << "\n\n";
 		break;
+		case 87: cout << line <<"\n" << isit << "FRANCIO"
+		<< isSymbol << "Fr\n" << p7 << line << "\n\n";
+		break;
+		case 88: cout << line <<"\n" << isit << "RADIO"
+		<< isSymbol << "Ra\n" << p7 << line << "\n\n";
+		break;
 	default:
 		cout <<"\nEl elemento no fue encontrado :(\n\n";
 	}
