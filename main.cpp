@@ -4,11 +4,11 @@ using namespace std;
 
 int main(){
 	
-	// Título AtomStruck
+	// Tï¿½tulo AtomStruck
 	system("title AtomStruck");
-	
+
 	cout <<"Hola. Bienvenidos a AtomStruck.\n\n";
-	cout<"\n\n";
+	cout <<"\n\n";
 
 /*
 	
