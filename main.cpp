@@ -1,10 +1,12 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
+int element, o = 5, color = 1;
+
 int main(){
 	
-	// T�tulo AtomStruck
+	// Window title
 	system("title AtomStruck");
 
 	cout <<"Hola. Bienvenidos a AtomStruck.\n\n";
@@ -21,7 +23,6 @@ int main(){
 
 */
 
-	int element, o = 5, color = 1;
 	string isit = ">>> El elemento es ", isSymbol = " su simbolo es ", line = "\n------------------------------------------------------------";
 	
 	/* Periodos de los elementos*/
@@ -43,10 +44,39 @@ int main(){
 
 
 	while (element!=0){
-			// Color predeterminado
-			system("color 1B");
-			// Limpieza de la pantalla
+			// Color for showing chemical elements
+			if (element % 2 == 0)
+			{
+				system("color B");
+			}
+			else
+			{
+				system("color D");
+			}
+
+			// Clean window
 			system("cls");
+
+			// Print an atom
+			cout << " \\ /\\ /\n";
+			if (element < 10) {
+				cout << " < () >  \n";
+			}else if(element < 20) {
+				cout << " < ++ >  \n";
+			}else if(element < 30) {
+				cout << " < XX >  \n";
+			}else if(element < 40) {
+				cout << " > OO <  \n";
+			}else if(element < 60) {
+				cout << " < == >  \n";
+			}else if(element < 80) {
+				cout << " > -- <  \n";
+			}else if(element < 100) {
+				cout << " < .. >  \n";
+			}else{
+				cout << " < ## >  \n";
+			}
+			cout << " / \\/ \\";
 
 
 		switch (element){
@@ -334,15 +364,15 @@ int main(){
 			<< isSymbol << "Pu\n" << p7 << line << "\n\n";
 			break;
 		default:
-			cout <<"\nEl elemento no fue encontrado :(\n\n";
+			cout <<"\nEl elemento no fue encontrado [x_x]\n\n";
 		}
 
 	cout <<"// Digite el numero del siguiente elemento.\nSi deseas salir solo digita '0':\t";
 	cin>> element;
-
-
 	}
 
 	cout<< line << "\natomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
+	cout << "Version 0.2";
+	system("pause");
 	return 0;
 }
