@@ -19,39 +19,19 @@ int main(){
 	cout <<"\n\n";
 
 	while (element!=0){
-			// Color for showing chemical elements
-			if (element % 2 == 0)
-			{
-				system("color B");
-			}
-			else
-			{
-				system("color D");
-			}
 
-			// Clean window
-			system("cls");
+		// Color for showing chemical elements
+		if (element % 2 == 0)
+		{
+			system("color B");
+		}
+		else
+		{
+			system("color D");
+		}
 
-			// Print an atom
-			cout << " \\ /\\ /\n";
-			if (element < 10) {
-				cout << " < () >  \n";
-			}else if(element < 20) {
-				cout << " < ++ >  \n";
-			}else if(element < 30) {
-				cout << " < XX >  \n";
-			}else if(element < 40) {
-				cout << " > OO <  \n";
-			}else if(element < 60) {
-				cout << " < == >  \n";
-			}else if(element < 80) {
-				cout << " > -- <  \n";
-			}else if(element < 100) {
-				cout << " < .. >  \n";
-			}else{
-				cout << " < ## >  \n";
-			}
-			cout << " / \\/ \\";
+		// Clean window
+		system("cls");
 
 	cout << "Digite el numero del elemento quimico:\t";
 	cin >> element;
