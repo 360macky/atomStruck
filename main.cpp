@@ -8,7 +8,6 @@ int o = 5, color = 1;
 
 int main(){
 	
-	// Window title
 	system("title AtomStruck");
 
 	float version = 0.3;
@@ -33,13 +32,14 @@ int main(){
 		// Clean window
 		system("cls");
 
-	cout << "Digite el numero del elemento quimico:\t";
-	cin >> element;
-	findElement();
+		cout << "Digite el numero del elemento quimico:\t";
+		cin >> element;
+		findElement();
 
-	cout <<"// Digite el numero del siguiente elemento.";
-	cout << "Si deseas salir solo digita '0':\t";
-	cin>> element;
+		cout <<"// Digite el numero del siguiente elemento.";
+		cout << "Si deseas salir solo digita '0':\t";
+		
+		cin>> element;
 	}
 
 	cout << line << endl << "atomStruck Version Beta" << endl << "Desarrollado por 360macky\n";
