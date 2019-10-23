@@ -361,16 +361,29 @@ int main(){
 			case 94: cout << line <<"\n" << isit << "PLUTONIO"
 			<< isSymbol << "Pu\n" << p7 << line << "\n\n";
 			break;
+			case 95: cout << line <<"\n" << isit << "AMERICIO"
+			<< isSymbol << "Am\n" << p7 << line << "\n\n";
+			break;
+			case 96: cout << line <<"\n" << isit << "CURIO"
+			<< isSymbol << "Cm\n" << p7 << line << "\n\n";
+			break;
+			case 97: cout << line <<"\n" << isit << "BERKELIO"
+			<< isSymbol << "Bk\n" << p7 << line << "\n\n";
+			break;
+			case 98: cout << line <<"\n" << isit << "CALIFORNIO"
+			<< isSymbol << "Cf\n" << p7 << line << "\n\n";
+			break;
 		default:
-			cout <<"\nEl elemento no fue encontrado [x_x]\n\n";
+			cout << endl << "El elemento no fue encontrado [x_x] " << endl << endl;
 		}
 
 	cout <<"// Digite el numero del siguiente elemento.\nSi deseas salir solo digita '0':\t";
 	cin>> element;
 	}
 
-	cout<< line << "\natomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
+	cout<< line << endl << "atomStruck Version Beta" << endl << "Desarrollado por 360macky\n\n\n" << endl;
 	cout << "Version 0.2";
+	
 	system("pause");
 	return 0;
 }
