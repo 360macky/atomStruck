@@ -18,7 +18,7 @@ int main(){
 
 	cout <<"\n\n";
 
-	while (element!=0){
+	while (element != 0){
 
 		// Color for showing chemical elements
 		if (element % 2 == 0)
@@ -37,11 +37,12 @@ int main(){
 	cin >> element;
 	findElement();
 
-	cout <<"// Digite el numero del siguiente elemento.\nSi deseas salir solo digita '0':\t";
+	cout <<"// Digite el numero del siguiente elemento.";
+	cout << "Si deseas salir solo digita '0':\t";
 	cin>> element;
 	}
 
-	cout<< line << "\natomStruck Version Beta\nDesarrollado por 360macky\n\n\n\n";
+	cout << line << endl << "atomStruck Version Beta" << endl << "Desarrollado por 360macky\n";
 	
 	cout << "Version " << version;
 
