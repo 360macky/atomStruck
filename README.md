@@ -14,4 +14,4 @@ Mediante un Input se ingresa el número atómico y usando una estructura de cont
 De Ignacitum - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=53852661
 
 ## ✒️ Desarrollador
-[Marcelo Arias Saavedra](https://360macky.blogspot.com/)
+[Marcelo Arias Saavedra](https://marceloarias.com/)
