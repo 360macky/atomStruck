@@ -1,17 +1,20 @@
-# atomStruck
-Guía de información acerca de elementos químicos. El programa està desarrollado enteramente en C++.
+<h1 align="center">💻 atomStruck 🧪</h1>
+<p align="center">Information guide about chemical elements. The program is developed entirely in C++.</p>
 
-❤️ Este es mi primer proyecto en GitHub.
+<p align="center">
+  <!-- C++ -->
+  <img src="https://img.shields.io/static/v1?style=flat-square&label=GCC&message=v9.3.0&color=00599C&logo=c%2B%2B" />
+</p>
 
-## ⚙️ Estructura
-Mediante un Input se ingresa el número atómico y usando una estructura de control switch se muestra en pantalla la información de ese elemento químico.
+## ⚙️ Structure
+By means of an Input the atomic number is entered and using a switch control structure the information of that chemical element is displayed on the screen.
 
-## 🛠️ Información de elementos químicos
-[Lista de elementos químicos](https://www.periodni.com/es/elementos_clasificados_por_numero_atomico.html)
-[Elementos químicos de tabla periódica](https://es.wikipedia.org/wiki/Elemento_qu%C3%ADmico)
+## 🛠️ Chemical element information
+[List of chemical elements](https://www.periodni.com/es/elementos_clasificados_por_numero_atomico.html)
+[Periodic table chemical elements](https://es.wikipedia.org/wiki/Elemento_qu%C3%ADmico)
 
-![Tabla periódica de Elementos Químicos](assets/img/Periodic_table_large_2016-es.png)
+![Periodic Table of Chemical Elements](assets/img/Periodic_table_large_2016-es.png)
 De Ignacitum - Trabajo propio, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=53852661
 
-## ✒️ Desarrollador
+## ✒️ Author
 [Marcelo Arias Saavedra](https://marceloarias.com/)
