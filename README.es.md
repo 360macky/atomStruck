@@ -1,6 +1,13 @@
 <h1 align="center">💻 atomStruck 🧪</h1>
 <p align="center">Guía de información acerca de elementos químicos. El programa està desarrollado enteramente en C++.</p>
 
+<img
+  src="./.github/atomstruck_demo.gif"
+  title="Captura de pantalla de atomStruck"
+  alt="Captura de pantalla de atomStruck"
+  align="center"
+/>
+
 <p align="center">
   <!-- C++ -->
   <img src="https://img.shields.io/static/v1?style=flat-square&label=GCC&message=v9.3.0&color=00599C&logo=c%2B%2B" />
